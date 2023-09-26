@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://i.ibb.co/DLKgry0/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swiper {
+    width: 300px;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+ 
+  
+  
+  
+ 
+  
+  
+  
