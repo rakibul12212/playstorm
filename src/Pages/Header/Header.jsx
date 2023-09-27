@@ -30,7 +30,7 @@ const Header = () => {
                     <span className='text-4xl font-light ps-3 font-kristi'>Digital Art</span>
                 </div>
                 </p>
-                <p className='text-sm pt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error beatae blanditiis labore totam consequuntur? Quisquam esse perspiciatis ab, nulla aperiam error debitis eaque officia neque, alias assumenda accusantium.</p>
+                <p className='text-sm pt-5 text-gray-500'>Minting and selling web3 digital art involves creating unique artworks using blockchain technology and arketing them available for purchase on decentralize platform</p>
                 <div className='pt-5'>
                    <button type="button" className="relative rounded bg-orange-500 px-4 py-2 text-white hover:text-white hover:bg-orange-600 border-none ">Explore The Market</button>
                 </div>
@@ -38,10 +38,10 @@ const Header = () => {
          
             <div className='px-40 py-5'>
                 <Swiper effect={'cards'} grabCursor={true} modules={[EffectCards]}className="mySwiper">
-                    <SwiperSlide><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG/800px-Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG" alt="" /></SwiperSlide>
-                    <SwiperSlide><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG/800px-Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG" alt="" /></SwiperSlide>
-                    <SwiperSlide><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG/800px-Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG" alt="" /></SwiperSlide>
-                    <SwiperSlide><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG/800px-Casio_OCEANUS_OCW-S1350PC-1AJR_01.JPG" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="https://i.pinimg.com/474x/b6/45/d0/b645d01a3f2175105e52f387dadb594e.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="https://i.pinimg.com/736x/35/8f/ce/358fce98df0fb868c70e5c40322cae9a.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="https://i.pinimg.com/564x/02/9f/d8/029fd8d72f4d327afe6df991ea555d8f.jpg" alt="" /></SwiperSlide>
+                    <SwiperSlide><img src="https://i.pinimg.com/564x/8a/1f/ea/8a1fea7ce50ead78719c6bb92debf294.jpg" alt="" /></SwiperSlide>
                    
                 </Swiper>
             </div>

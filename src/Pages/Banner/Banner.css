@@ -1,0 +1,6 @@
+#banner{
+    background-image: url("../../assets/Images/banner.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(4, 4, 4);
+}
