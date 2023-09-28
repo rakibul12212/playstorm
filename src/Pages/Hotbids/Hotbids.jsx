@@ -38,19 +38,19 @@ const Hotbids = () => {
   ];
 
   return (
-    <div className='m-4 sm:m-20'>
+    <div className='m-4 sm:m-20 '>
     <div>
       <div className='flex flex-col items-center sm:flex-row sm:gap-x-2 justify-center'>
         <img src="https://i.ibb.co/h9NLz3K/ic.png" alt="" className="w-10 h-10 sm:w-auto sm:h-auto" />
         <p className='text-xl sm:text-3xl font-bold mt-2 sm:mt-0'>Hot Bids</p>
       </div>
       <div>
-        <p className='px-4 py-3 text-center text-gray-400'>Hot Bids is an online platform that specializes in hosting and facilitating dynamic bidding events for a wide range of products and services.</p>
+        <p className='px-40  py-3 text-center text-gray-400'>Hot Bids is an online platform that specializes in hosting and facilitating dynamic bidding events for a wide range of products and services.</p>
       </div>
     </div>
     <div className="container mx-auto sm:px-20 py-5 flex flex-col sm:flex-row gap-2 justify-items-stretch">
       {hotbidsData.map((item) => (
-        <div key={item.id} className="max-w-xs rounded overflow-hidden shadow mb-4 ">
+        <div key={item.id} className="max-w-xs rounded-2xl overflow-hidden shadow mb-4 ">
           <div className='flex justify-between p-2 px-2'>
             <div className='flex'>
               <img className="w-7 h-7 rounded-full" src={item.userImg} alt="User Avatar" />

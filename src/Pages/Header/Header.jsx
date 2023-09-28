@@ -10,8 +10,8 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='flex justify-center gap-x-16 m-4'>
-        <div className='pt-20'>
+        <div className='flex flex-col items-center sm:flex-row sm:gap-x-2 justify-center m-4 sm:m-20'>
+        <div className='pt-20 sm:px-2'>
             <p className='text-start tracking-wider'><span className='text-4xl font-bold'>Mint  </span>   <span className='text-4xl font-light'>And  </span> <span className='text-4xl font-bold'>Sell </span><br />
             <div className='flex pt-2'>
                <span className='text-4xl font-bold'>Web3  </span>
@@ -36,6 +36,10 @@ const Header = () => {
                 <SwiperSlide><img src="https://i.pinimg.com/564x/8a/1f/ea/8a1fea7ce50ead78719c6bb92debf294.jpg" alt="" /></SwiperSlide>
             </Swiper>
         </div>
+
+
+
+
  
         
     </div>
@@ -51,3 +55,38 @@ const Header = () => {
 
 export default Header;
 
+{/* <div>
+  <Swiper
+    effect={'cards'}
+    grabCursor={true}
+    modules={[EffectCards]}
+    className="mySwiper"
+    breakpoints={{
+      // When the viewport width is 768 pixels or less (typical mobile screen width),
+      // show only one slide at a time with smaller space between them
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 5,
+      },
+      // For larger screens (e.g., tablets and desktops),
+      // show more slides with a larger space between them
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+    }}
+  >
+    <SwiperSlide>
+      <img src="https://i.pinimg.com/474x/b6/45/d0/b645d01a3f2175105e52f387dadb594e.jpg" alt="" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="https://i.pinimg.com/736x/35/8f/ce/358fce98df0fb868c70e5c40322cae9a.jpg" alt="" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="https://i.pinimg.com/564x/02/9f/d8/029fd8d72f4d327afe6df991ea555d8f.jpg" alt="" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="https://i.pinimg.com/564x/8a/1f/ea/8a1fea7ce50ead78719c6bb92debf294.jpg" alt="" />
+    </SwiperSlide>
+  </Swiper>
+</div> */}
