@@ -1,6 +1,11 @@
 #banner{
     background-image: url("../../assets/Images/banner.png");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-color: rgb(4, 4, 4);
+}
+@media (max-width: 640px) {
+    #banner {
+        background-size: cover; /* Use contain for smaller screens */
+    }
 }
