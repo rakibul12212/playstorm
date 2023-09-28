@@ -11,11 +11,11 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent flex items-center justify-between">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Button to show/hide the mobile menu */}
-            <button onClick={toggleMobileMenu} id="mobile-menu-button">Toggle Menu</button>
+             <button onClick={toggleMobileMenu} id="mobile-menu-button">Toggle Menu</button>
           </div>
           <div className="flex items-center justify-between sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center ">
@@ -23,15 +23,16 @@ const Navbar = () => {
             </div>
             <div className={`sm:ml-6 sm:block ${isMobileMenuOpen ? '' : 'hidden'}`}>
               <div className="flex justify-between space-x-6 ">
-                <a href="/home" className=" text-orange-500 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-                <a href="/trending" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Trending</a>
-                <a href="/artist" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Artists</a>
-                <a href="/collection" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Collection</a>
-                <a href="/contacts" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacts</a>
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <Buttons></Buttons>
-          </div>
-              </div>
+                   <a href="/home" className=" text-orange-500 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+                   <a href="/trending" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Trending</a>
+                   <a href="/artist" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Artists</a>
+                   <a href="/collection" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Collection</a>
+                   <a href="/contacts" className="text-gray-500 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contacts</a>
+                   <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static  sm:inset-auto sm:ml-6 sm:pr-0">
+                      <Buttons></Buttons>
+                   </div>
+                </div>
+             
             </div>
           </div>
          
