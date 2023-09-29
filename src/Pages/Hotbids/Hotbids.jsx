@@ -50,9 +50,9 @@ const Hotbids = () => {
       </p>
     </div>
     </div>
-    <div className="container mx-auto sm:px-20 py-5 flex flex-col sm:flex-row gap-2 justify-items-stretch">
+    <div className="container mx-auto sm:px-20 py-5 flex flex-col sm:flex-row gap-2 justify-items-stretch ">
       {hotbidsData.map((item) => (
-        <div key={item.id} className="max-w-xs rounded-2xl overflow-hidden shadow mb-4">
+        <div key={item.id} className="max-w-xs rounded-2xl overflow-hidden shadow mb-4 hover:bg-gray-50">
           <div className='flex justify-between p-2 px-2'>
             <div className='flex'>
               <img className="w-7 h-7 rounded-full" src={item.userImg} alt="User Avatar" />
