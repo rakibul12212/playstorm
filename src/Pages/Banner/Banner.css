@@ -1,8 +1,9 @@
 #banner{
-    background-image: url("../../assets/Images/banner.png");
+    
+    background-image: url("../../assets/Images/banner.png"),url("https://i.ibb.co/VLjnX2b/footer-bg.png");
     background-repeat: no-repeat;
     background-size:cover;
-    background-color: rgb(4, 4, 4);
+    
 }
 @media (max-width: 640px) {
     #banner {
