@@ -1,0 +1,13 @@
+
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack children vertically for mobile */
+    }
+    .image-container,
+    .text-container {
+      max-width: 100%; /* Allow full width on mobile */
+    }
+  }
+  

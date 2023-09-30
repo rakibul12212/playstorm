@@ -12,27 +12,7 @@ const TopCollection = () => {
           quantity:10,
           
         },
-        // {
-        //   id: 2,
-        //   title:'The Futr Crystal',
-        //   bid:2.85,
-        //   userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
-         
-        // },
-        // {
-        //   id: 3,
-        //   title:'The Futr Crystal',
-        //   bid:1.58,
-        //   userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
-         
-        // }, 
-        // {
-        //   id: 4,
-        //   title:'The Futr Crystal',
-        //   bid:1.60,
-        //   userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
-          
-        // } 
+        
       ];
     
       const secondData = [
