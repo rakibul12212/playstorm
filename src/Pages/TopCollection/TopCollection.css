@@ -1,0 +1,11 @@
+#bg{
+    background-image: url("https://i.ibb.co/K5sgv4M/bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(4, 4, 4);
+}
+@media (max-width: 640px) {
+    #banner {
+        background-size: cover; /* Use contain for smaller screens */
+    }
+}

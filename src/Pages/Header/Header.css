@@ -2,6 +2,7 @@ body {
   background-image: url("https://i.ibb.co/DLKgry0/header-bg.png");
   background-repeat: no-repeat;
   background-size: contain; 
+
 }
 @media (max-width: 768px) {
   body {
