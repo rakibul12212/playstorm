@@ -44,7 +44,7 @@ const TopCollection = () => {
           serial:1,
           title:'NFtThor',
           bid:2.85,
-          userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+          userImg: 'https://i.ibb.co/kBB3G43/u1.png',
           cardImg: 'https://i.ibb.co/qN6xDkB/image-5.png',
           amount:  '19,769,39',
           ratio:26.52
@@ -55,7 +55,7 @@ const TopCollection = () => {
           serial:2,
           title:'FtSpider',
           bid:1.58,
-          userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+          userImg: 'https://i.ibb.co/Jpq09MB/u2.png',
           cardImg: 'https://i.ibb.co/YP0wSZ3/image-4.png',
           amount:  '17,769,39',
           ratio:10.20
@@ -65,7 +65,7 @@ const TopCollection = () => {
           serial:3,
           title:'GTgod',
           bid:1.60,
-          userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+          userImg: 'https://i.ibb.co/SP2zzxW/u3.png',
           cardImg: 'https://i.ibb.co/6tQgzq0/image-6.png',
           amount:  '15,769,39',
           ratio:5.52
@@ -75,7 +75,7 @@ const TopCollection = () => {
             serial:4,
             title:'LeMok',
             bid:1.60,
-            userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+            userImg: 'https://i.ibb.co/VtsYZqT/u4.png',
             cardImg: 'https://i.ibb.co/6tQgzq0/image-6.png',
             amount:  '12,769,39',
             ratio:2.92
@@ -85,7 +85,7 @@ const TopCollection = () => {
             serial:5,
             title:'NFtThor',
             bid:1.60,
-            userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+            userImg: 'https://i.ibb.co/3BMrFph/u5.png',
             cardImg: 'https://i.ibb.co/6tQgzq0/image-6.png',
             amount:  '12,769,39',
             ratio:1.52
@@ -94,7 +94,7 @@ const TopCollection = () => {
       ];
 
     return (
-        <div id='bg' className='flex flex-wrap'>
+        <div id='tc-bg' className='flex flex-wrap py-10'>
         <div className='container py-5 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6'>
           {firstData.map((item) => (
             <div key={item.id} className='rounded-2xl overflow-hidden mb-4'>

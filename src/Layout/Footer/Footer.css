@@ -1,0 +1,27 @@
+#footer-bg{
+    background-image: url("https://i.ibb.co/VLjnX2b/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(4, 4, 4);
+}
+@media (max-width: 640px) {
+    #banner {
+        background-size: cover; /* Use contain for smaller screens */
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.nun{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}

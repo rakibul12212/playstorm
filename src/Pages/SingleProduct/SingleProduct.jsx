@@ -22,7 +22,7 @@ const SingleProduct = () => {
         
       ];
     return (
-        <div className="container flex justify-between ">
+        <div className="container flex justify-between py-10">
             <div className="container">
               <img src="https://i.ibb.co/dmWcXbW/sp-img.png" alt="Image" />
             </div>
@@ -55,7 +55,7 @@ const SingleProduct = () => {
               </div>
               <div className='flex justify-between items-center py-2'>
                  <p className='font-medium'>13.38 ETH</p>
-                 <button type="button" className="relative rounded bg-orange-500 px-4 py-2 text-white hover:text-white hover:bg-orange-600 border-none ">Buy Now</button>
+                 <button type="button" className="relative rounded bg-orange-500 px-3 py-1 text-white hover:text-white hover:bg-orange-600 border-none font-normal text-sm">Buy Now</button>
               </div>
            </div>
       </div>

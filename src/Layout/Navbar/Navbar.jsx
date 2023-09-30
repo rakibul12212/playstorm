@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="container mx-auto flex justify-between px-20">
         {/* Logo */}
         <div>
-          <a href="#"><p className='text-2xl'><b>Play</b><span>Storm</span></p></a>
+          <a href="#"><p className='text-2xl'><b>Play</b><span className='font-thin'>Storm</span></p></a>
         </div>
 
         {/* Desktop Navigation Links */}
