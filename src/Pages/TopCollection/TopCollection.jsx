@@ -11,7 +11,28 @@ const TopCollection = () => {
           cardImg: 'https://i.ibb.co/LvghQ1M/image-7.png',
           quantity:10,
           
-        }, 
+        },
+        // {
+        //   id: 2,
+        //   title:'The Futr Crystal',
+        //   bid:2.85,
+        //   userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+         
+        // },
+        // {
+        //   id: 3,
+        //   title:'The Futr Crystal',
+        //   bid:1.58,
+        //   userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+         
+        // }, 
+        // {
+        //   id: 4,
+        //   title:'The Futr Crystal',
+        //   bid:1.60,
+        //   userImg: 'https://i.ibb.co/zndcNw1/image-8.png',
+          
+        // } 
       ];
     
       const secondData = [
@@ -93,90 +114,84 @@ const TopCollection = () => {
       ];
 
     return (
-        <div id='bg' className='flex px-28 py-10'>
-            <div className="container   py-5 flex flex-col sm:flex-row  ">
-      {firstData.map((item) => (
-        <div key={item.id} className=" rounded-2xl overflow-hidden  mb-4 ">
-          <div className='px-2 rounded-full '>
-            <img className="rounded-xl" src={item.cardImg} alt="img" />
-          </div>
-
-
-          <div className='flex '>
-          <div className='flex p-2'>
-              <div className='px-2'>
-                 <img className="w-8 h-8 rounded-full" src={item.userImg} alt="User Avatar" />
+        <div id='bg' className='flex flex-wrap'>
+        <div className='container py-5 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6'>
+          {firstData.map((item) => (
+            <div key={item.id} className='rounded-2xl overflow-hidden mb-4'>
+              <div className='px-2 rounded-full'>
+                <img className="rounded-xl" src={item.cardImg} alt="img" />
               </div>
-              <div>
-                 <p className='text-sm font-bold'>{item.title}</p>
-                 <p className='text-xs text-gray-400'>{item.quantity} In Stoke</p>
-              </div>
-            </div>
-            <div className='flex  p-2 px-3 pb-2'>
-              <div>
-                <p className='text-gray-400 text-xs'>Higest Bid</p>
-                <p className='text-xs text-orange-500'>{item.bid} ETH</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-
-    
-    <div className="container   py-5  border-r-2 border-gray-100 ">
-      {secondData.map((item) => (
-        <div key={item.id} className=" rounded-2xl overflow-hidden  mb-4 ">
-          
-          <div className='flex '>
-          <div className='flex '>
-              <div className='px-2 rounded-full w-32'>
-                 <img className="rounded-xl" src={item.cardImg} alt="img" />
-              </div>
-              <div className='ps-3 py-5'>
-                 <p className='text-sm font-bold'>{item.title}</p>
-                 <div className='text-gray-400 text-xs flex pt-2'>
-                     <img className="w-4 h-4 rounded-full" src={item.userImg} alt="User Avatar" />
-                     <p className='ps-1'>{item.bid} ETH</p>
-                 </div>
-                 <button className='text-xs text-orange-500'> <u>Place Bid</u></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-
-
-        <div className='container py-2'>
-             <div className='px-5 py-3'>
-                <p className='font-bold'>Top Challange Over</p>
-                <p className='text-orange-500'>Last 7 Days</p>
-            </div>
-            <div className=" ">
-                {thirdData.map((item) => (
-                <div key={item.id} className="flex justify-between px-5 py-1 rounded-2xl overflow-hidden  mb-4 ">
-                   
-                    <div className='flex'>
-                        <div className='p-2'>
-                            <p >{item.serial}</p>
-                        </div>
-                        <div className=''>
-                            <img className="w-10 h-10 rounded-full" src={item.userImg} alt="User Avatar" />
-                        </div>
-                        <div className='px-5'>
-                            <p className='text-sm font-bold'>{item.title}</p>
-                            <p className='text-xs text-gray-400'>$<span>{item.amount}</span></p>
-                        </div> 
-                    </div>
-                    <div className='font-lg text-green-600'>+{item.ratio}%</div>
+              <div className='flex'>
+                <div className='flex p-2'>
+                  <div className='px-2'>
+                    <img className="w-8 h-8 rounded-full" src={item.userImg} alt="User Avatar" />
+                  </div>
+                  <div>
+                    <p className='text-sm font-bold'>{item.title}</p>
+                    <p className='text-xs text-gray-400'>{item.quantity} In Stock</p>
+                  </div>
                 </div>
-            ))}
+                <div className='flex p-2 px-3 pb-2'>
+                  <div>
+                    <p className='text-gray-400 text-xs'>Highest Bid</p>
+                    <p className='text-xs text-orange-500'>{item.bid} ETH</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          ))}
         </div>
+      
+        <div className='container py-5 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6'>
+          {secondData.map((item) => (
+            <div key={item.id} className='rounded-2xl overflow-hidden mb-4'>
+              <div className='flex'>
+                <div className='flex'>
+                  <div className='px-2 rounded-full w-32'>
+                    <img className="rounded-xl" src={item.cardImg} alt="img" />
+                  </div>
+                  <div className='ps-3 py-5'>
+                    <p className='text-sm font-bold'>{item.title}</p>
+                    <div className='text-gray-400 text-xs flex pt-2'>
+                      <img className="w-4 h-4 rounded-full" src={item.userImg} alt="User Avatar" />
+                      <p className='ps-1'>{item.bid} ETH</p>
+                    </div>
+                    <button className='text-xs text-orange-500'><u>Place Bid</u></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      
+        <div className='container py-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6'>
+          <div className='px-5 py-3'>
+            <p className='font-bold'>Top Challenge Over</p>
+            <p className='text-orange-500'>Last 7 Days</p>
+          </div>
+          <div>
+            {thirdData.map((item) => (
+              <div key={item.id} className='flex justify-between px-5 py-1 rounded-2xl overflow-hidden mb-4'>
+                <div className='flex'>
+                  <div className='p-2'>
+                    <p>{item.serial}</p>
+                  </div>
+                  <div>
+                    <img className="w-10 h-10 rounded-full" src={item.userImg} alt="User Avatar" />
+                  </div>
+                  <div className='px-5'>
+                    <p className='text-sm font-bold'>{item.title}</p>
+                    <p className='text-xs text-gray-400'>$<span>{item.amount}</span></p>
+                  </div>
+                </div>
+                <div className='font-lg text-green-600'>+{item.ratio}%</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      
 
-    
-        </div>
     );
 };
 
