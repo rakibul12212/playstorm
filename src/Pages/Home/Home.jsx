@@ -7,6 +7,7 @@ import TopCollection from '../TopCollection/TopCollection';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import PopulerCard from '../PopulerCard/PopulerCard';
 import CreateNfts from '../CreateNfts/CreateNfts';
+import Roadmap from '../Roadmap/Roadmap';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <SingleProduct></SingleProduct>
             <PopulerCard></PopulerCard>
             <CreateNfts></CreateNfts>
+            <Roadmap></Roadmap>
         </div>
     );
 };
