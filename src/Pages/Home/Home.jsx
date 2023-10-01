@@ -6,6 +6,7 @@ import './Home.css'
 import TopCollection from '../TopCollection/TopCollection';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import PopulerCard from '../PopulerCard/PopulerCard';
+import CreateNfts from '../CreateNfts/CreateNfts';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <TopCollection></TopCollection>
             <SingleProduct></SingleProduct>
             <PopulerCard></PopulerCard>
+            <CreateNfts></CreateNfts>
         </div>
     );
 };

@@ -71,7 +71,7 @@ const PopulerCard = () => {
       ];
     return (
         <div className='p-20 text-white' id='pc-bg'>
-            <div className='container mx-auto sm:px-20 py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2'>
+            <div className='container mx-auto sm:px-20 py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2'>
                 <div>
                     <p className='font-bold text-2xl w-64'>Populer Collection for NFT Digital Art</p>
                 </div>
