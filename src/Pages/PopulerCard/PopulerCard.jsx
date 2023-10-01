@@ -7,7 +7,7 @@ const PopulerCard = () => {
           id: 1,
           code:203,
           bid:1.38,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
           img: 'https://i.ibb.co/BTyfVt6/hot-bids-1.png',
           userName: 'remeol',
         },
@@ -15,7 +15,7 @@ const PopulerCard = () => {
           id: 2,
           code:596,
           bid:2.85,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
           img: 'https://i.ibb.co/qJ48pTG/hot-bids-2.png',
           userName: 'remeol',
         },
@@ -23,7 +23,7 @@ const PopulerCard = () => {
           id: 3,
           code:186,
           bid:1.58,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
           img: 'https://i.ibb.co/MSc6dTL/hot-bids-3.png',
           userName: 'remeol',
         },
@@ -31,40 +31,40 @@ const PopulerCard = () => {
           id: 4,
           code:897,
           bid:3.38,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
           img: 'https://i.ibb.co/7JxYgjv/hot-bids-4.png',
           userName: 'remeol',
         },
         {
-          id: 1,
+          id: 5,
           code:203,
           bid:1.38,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
-          img: 'https://i.ibb.co/BTyfVt6/hot-bids-1.png',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
+          img: 'https://i.ibb.co/mzmx3k0/pc-5.png',
           userName: 'remeol',
         },
         {
-          id: 2,
+          id: 6,
           code:596,
           bid:2.85,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
-          img: 'https://i.ibb.co/qJ48pTG/hot-bids-2.png',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
+          img: 'https://i.ibb.co/88DjmvF/pc-6.png',
           userName: 'remeol',
         },
         {
-          id: 3,
+          id: 7,
           code:186,
           bid:1.58,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
-          img: 'https://i.ibb.co/MSc6dTL/hot-bids-3.png',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
+          img: 'https://i.ibb.co/RDjCCKP/pc-7.png',
           userName: 'remeol',
         },
         {
-          id: 4,
+          id: 8,
           code:897,
           bid:3.38,
-          userImg: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80',
-          img: 'https://i.ibb.co/7JxYgjv/hot-bids-4.png',
+          userImg: 'https://i.ibb.co/DVv1Tb8/user.png',
+          img: 'https://i.ibb.co/n0drxvY/pc-8.png',
           userName: 'remeol',
         },
         
@@ -89,7 +89,7 @@ const PopulerCard = () => {
               <img className="w-7 h-7 rounded-full" src={item.userImg} alt="User Avatar" />
               <p className="font-sm text-sm p-1 text-gray-400">@{item.userName}</p>
             </div>
-            <div className='font-bold'>
+            <div className='font-bold '>
               <button>. . .</button>
             </div>
           </div>
