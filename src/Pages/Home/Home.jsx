@@ -5,6 +5,7 @@ import Hotbids from '../HotBids/HotBids';
 import './Home.css'
 import TopCollection from '../TopCollection/TopCollection';
 import SingleProduct from '../SingleProduct/SingleProduct';
+import PopulerCard from '../PopulerCard/PopulerCard';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Hotbids></Hotbids>
             <TopCollection></TopCollection>
             <SingleProduct></SingleProduct>
+            <PopulerCard></PopulerCard>
         </div>
     );
 };
