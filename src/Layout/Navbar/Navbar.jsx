@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Buttons from '../../Components/Buttons/Buttons';
+import './Navbar.css'
 
 const Navbar = () => {
 
@@ -9,7 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-transparent p-4 ">
+    <div>
+        <nav className="bg-transparent p-4 ">
     <div className="container mx-auto flex justify-between px-20">
        <div className='flex justify-between'>
          {/* Logo */}
@@ -54,6 +56,7 @@ const Navbar = () => {
         </div>
     </div>
 </nav>
+    </div>
   );
 };
 

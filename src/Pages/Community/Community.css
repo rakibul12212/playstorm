@@ -1,0 +1,12 @@
+#c-bg{
+    
+    background-image: url("https://i.ibb.co/NyST6Rq/comunity-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+@media (max-width: 640px) {
+    #c-bg {
+        background-size: cover; /* Use contain for smaller screens */
+    }
+}
