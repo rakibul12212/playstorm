@@ -122,10 +122,10 @@ const TopCollection = () => {
           ))}
         </div>
       
-        <div className='container py-5 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6'>
+        <div className=' py-5 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6'>
           {secondData.map((item) => (
             <div key={item.id} className='rounded-2xl overflow-hidden mb-4'>
-              <div className='flex'>
+              
                 <div className='flex'>
                   <div className='px-2 rounded-full w-32'>
                     <img className="rounded-xl" src={item.cardImg} alt="img" />
@@ -139,7 +139,7 @@ const TopCollection = () => {
                     <button className='text-xs text-orange-500'><u>Place Bid</u></button>
                   </div>
                 </div>
-              </div>
+              
             </div>
           ))}
         </div>
