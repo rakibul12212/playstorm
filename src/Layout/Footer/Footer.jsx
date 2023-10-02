@@ -34,11 +34,22 @@ const Footer = () => {
                 <p className='text-bold text-2xl'>Get Subscribed !</p>
                 <p className='text-sm py-1'>Subscribe to a newsletter is great way to stay informed about the leatest news & updates</p>
                 <div className='py-1'>
-                    <input type="email" placeholder='Enter Your Email' className="relative rounded bg-slate-800 py-1 text-white text-center"></input>
-                </div>
-                <div className='py-1'>
-                    <button type="button" className="relative rounded bg-orange-500 px-16 py-1 text-white hover:text-white hover:bg-orange-600 border-none ">Subscribe</button>
-                </div>
+      <input
+        type="email"
+        placeholder='Enter Your Email'
+        className="relative rounded bg-slate-800 py-1 px-4 text-white text-center"
+        style={{ width: '100%' }}
+      />
+    </div>
+    <div className='py-1'>
+      <button
+        type="button"
+        className="relative rounded bg-orange-500 py-1 text-white hover:text-white hover:bg-orange-600 border-none"
+        style={{ width: '100%' }}
+      >
+        Subscribe
+      </button>
+    </div>
                 </div>
             </div>
                 <p className='text-center p-4'>copyright 2023 <span className='font-bold text-white'>Play</span><span className='text-white font-thin'>Storm</span>- All Right Reserved</p>

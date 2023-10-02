@@ -25,7 +25,7 @@ const Header = () => {
         </div>
      
         <div >
-            <Swiper effect={'cards'} grabCursor={true} modules={[EffectCards]}className="mySwiper">
+            <Swiper effect={'cards'} grabCursor={true} modules={[EffectCards]}className="mySwiper p-5">
                 <SwiperSlide><img src="https://i.pinimg.com/474x/b6/45/d0/b645d01a3f2175105e52f387dadb594e.jpg" alt="" /></SwiperSlide>
                 <SwiperSlide><img src="https://i.pinimg.com/736x/35/8f/ce/358fce98df0fb868c70e5c40322cae9a.jpg" alt="" /></SwiperSlide>
                 <SwiperSlide><img src="https://i.pinimg.com/564x/02/9f/d8/029fd8d72f4d327afe6df991ea555d8f.jpg" alt="" /></SwiperSlide>
