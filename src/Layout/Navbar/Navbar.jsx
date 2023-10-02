@@ -11,11 +11,20 @@ const Navbar = () => {
   return (
     <nav className="bg-transparent p-4 ">
     <div className="container mx-auto flex justify-between px-20">
-        {/* Logo */}
-        <div>
+       <div className='flex justify-between'>
+         {/* Logo */}
+         <div>
           <a href="#"><p className='text-2xl'><b>Play</b><span className='font-thin'>Storm</span></p></a>
         </div>
-
+        {/* Mobile Menu Toggle Button */}
+        <div className="md:hidden">
+            <button onClick={toggleMobileMenu} className="text-black focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+       </div>
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-2 ">
                    <a href="/home" className=" text-orange-500 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
@@ -28,14 +37,7 @@ const Navbar = () => {
                    </div>             
         </div>
 
-        {/* Mobile Menu Toggle Button */}
-        <div className="md:hidden">
-            <button onClick={toggleMobileMenu} className="text-black focus:outline-none">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
-        </div>
+        
     </div>
 
     {/* Mobile Navigation Menu (Initially Hidden) */}

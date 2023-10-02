@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='flex flex-col items-center sm:flex-row sm:gap-x-2 sm:gap-y-2 justify-center  sm:m-10 body'  >
-        <div className='pt-10 sm:px-2'>
+        <div className='pt-10 sm:px-5'>
             <p className='text-start tracking-wider'><span className='text-4xl font-bold'>Mint  </span>   <span className='text-4xl font-light'>And  </span> <span className='text-4xl font-bold'>Sell </span><br />
             <div className='flex pt-2'>
                <span className='text-4xl font-bold'>Web3  </span>
