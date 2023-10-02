@@ -10,10 +10,11 @@ import CreateNfts from '../CreateNfts/CreateNfts';
 import Roadmap from '../Roadmap/Roadmap';
 import Community from '../Community/Community';
 import './Home.css'
+import TopPeople from '../TopPeople/TopPeople';
 
 const Home = () => {
     return (
-        <div >
+        <>
             <Header></Header>
             <Banner></Banner>
             <Hotbids></Hotbids>
@@ -22,8 +23,10 @@ const Home = () => {
             <PopulerCard></PopulerCard>
             <CreateNfts></CreateNfts>
             <Roadmap></Roadmap>
+            <TopPeople></TopPeople>
             <Community></Community>
-        </div>
+            
+        </>
     );
 };
 

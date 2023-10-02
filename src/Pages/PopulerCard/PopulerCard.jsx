@@ -77,7 +77,14 @@ const PopulerCard = () => {
                 </div>
                 <div className='text-sm text-gray-400'>
                     <p>The collection showcase a divarse of artistic styles,themes and medium including digital points 3D sculpture, animation, virtual reality experience and generative art.</p>
-                    <a href="#" className='text-orange-500 py-1'><u>See Details</u></a>
+                    
+                    <a href="#" className=' py-1 text-orange-500'>
+                       <div className='flex '>
+                          <u>See Details</u>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 pt-1 underline-offset-auto"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+
+                       </div>
+                    </a>
                 </div>
             </div>
 

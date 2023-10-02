@@ -136,7 +136,13 @@ const TopCollection = () => {
                       <img className="w-4 h-4 rounded-full" src={item.userImg} alt="User Avatar" />
                       <p className='ps-1'>{item.bid} ETH</p>
                     </div>
-                    <button className='text-xs text-orange-500'><u>Place Bid</u></button>
+                    <button className='text-xs text-orange-500'>
+                       <div className='flex '>
+                          <u>Place Bid</u>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 pt-1 underline-offset-auto"><path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+
+                       </div>
+                    </button>
                   </div>
                 </div>
               
