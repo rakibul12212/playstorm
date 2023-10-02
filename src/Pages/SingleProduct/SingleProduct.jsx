@@ -37,7 +37,7 @@ const SingleProduct = () => {
                     <div key={item.id} className='rounded-2xl overflow-hidden mb-4 '>
                         <div >
                             <div className='flex '>
-                                <div className='flex p-2'>
+                                <div className='flex  pt-4'>
                                     <div className='px-2'>
                                         <img className="w-10 h-10 rounded-full" src={item.userImg} alt="User Avatar" />
                                     </div>
@@ -53,7 +53,7 @@ const SingleProduct = () => {
              ))}
            
               </div>
-              <div className='flex justify-between items-center py-2'>
+              <div className='flex justify-between items-center px-5 py-2'>
                  <p className='font-medium'>13.38 ETH</p>
                  <button type="button" className="relative rounded bg-orange-500 px-3 py-1 text-white hover:text-white hover:bg-orange-600 border-none font-normal text-sm">Buy Now</button>
               </div>

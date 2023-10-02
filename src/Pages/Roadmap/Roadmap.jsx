@@ -15,7 +15,7 @@ const Roadmap = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         
         
@@ -37,7 +37,10 @@ const Roadmap = () => {
        return (
          <div className="px-20 py-5 "id="rm-bg">
          <h2 className="font-bold text-2xl text-center p-10">PlayStorm Roadmap</h2>       
-           <Slider {...settings} >      
+          <div>
+          <img src="https://i.ibb.co/cwR00m0/line.png" alt="" className="w-full py-2 hidden md:block"/>
+          <Slider {...settings}  > 
+                
                 <div className="rounded-xl p-5 bg-slate-100 hover:bg-slate-50 ">           
                     <h3 className="text-xs text-gray-500 ">Phase-01</h3>
                     <p className="font-bold py-1">Planning</p>
@@ -69,6 +72,7 @@ const Roadmap = () => {
                     <p className="text-xs text-gray-500">A launch refers to the act starting or initiating a particuler endeavor, project or event.It typically involves introducing a new product, service or initiative to the public or atrageted audience</p>
                 </div>
          </Slider>
+          </div>
        </div>
        );
      };

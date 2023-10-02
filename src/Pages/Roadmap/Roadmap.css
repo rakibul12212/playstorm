@@ -4,6 +4,7 @@
     background-size:cover;
    
 }
+
 @media (max-width: 640px) {
     #banner {
         background-size: cover; /* Use contain for smaller screens */
