@@ -1,7 +1,7 @@
 
 import './HotBids.css';
 
-const Hotbids = () => {
+const HotBids = () => {
   const hotbidsData = [
     {
       id: 1,
@@ -85,7 +85,7 @@ const Hotbids = () => {
   );
 };
 
-export default Hotbids;
+export default HotBids;
 
 
 
