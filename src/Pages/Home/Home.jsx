@@ -1,7 +1,7 @@
 import './Home.css'
 import Header from '../Header/Header';
 import Banner from '../Banner/Banner';
-
+import Hotbids from '../HotBids/HotBids';
 import TopCollection from '../TopCollection/TopCollection';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import PopulerCard from '../PopulerCard/PopulerCard';
@@ -10,7 +10,7 @@ import Roadmap from '../Roadmap/Roadmap';
 import Community from '../Community/Community';
 import './Home.css'
 import TopPeople from '../TopPeople/TopPeople';
-import Hotbids from '../HotBids/HotBids';
+
 
 
 const Home = () => {
