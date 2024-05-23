@@ -1,5 +1,5 @@
 
-import './Hotbids.css';
+import './HotBids.css';
 
 const Hotbids = () => {
   const hotbidsData = [
