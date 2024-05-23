@@ -1,7 +1,6 @@
-import React from 'react';
+
 import Header from '../Header/Header';
 import Banner from '../Banner/Banner';
-// import Hotbids from '../HotBids/HotBids';
 import './Home.css'
 import TopCollection from '../TopCollection/TopCollection';
 import SingleProduct from '../SingleProduct/SingleProduct';
@@ -11,7 +10,7 @@ import Roadmap from '../Roadmap/Roadmap';
 import Community from '../Community/Community';
 import './Home.css'
 import TopPeople from '../TopPeople/TopPeople';
-import HotBids from '../HotBids/HotBids';
+// import HotBids from '../HotBids/HotBids';
 
 
 const Home = () => {
@@ -19,8 +18,8 @@ const Home = () => {
         <>
             <Header></Header>
             <Banner></Banner>
-            {/* <Hotbids></Hotbids> */}
-            <HotBids></HotBids>
+            
+            {/* <HotBids></HotBids> */}
             <TopCollection></TopCollection>
             <SingleProduct></SingleProduct>
             <PopulerCard></PopulerCard>
