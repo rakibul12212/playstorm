@@ -11,7 +11,8 @@ import Roadmap from '../Roadmap/Roadmap';
 import Community from '../Community/Community';
 import './Home.css'
 import TopPeople from '../TopPeople/TopPeople';
-import Hotbids from '../HotBids/HotBids';
+import HotBids from '../HotBids/HotBids';
+
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             {/* <Hotbids></Hotbids> */}
-            <Hotbids></Hotbids>
+            <HotBids></HotBids>
             <TopCollection></TopCollection>
             <SingleProduct></SingleProduct>
             <PopulerCard></PopulerCard>
