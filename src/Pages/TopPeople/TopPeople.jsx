@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 function TopPeople() {
   const [currentIndex, setCurrentIndex] = useState(0);

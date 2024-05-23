@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './SingleProduct.css'
 
 const SingleProduct = () => {

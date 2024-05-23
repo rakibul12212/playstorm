@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Community.css'
 
 const Community = () => {

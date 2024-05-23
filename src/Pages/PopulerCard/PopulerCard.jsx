@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './PopulerCard.css'
 
 const PopulerCard = () => {
